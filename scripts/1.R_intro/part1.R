@@ -44,10 +44,16 @@ View(my_df)
 
 # create a new list with the same content of the dataframe (authors and nationalities)
 # please write the code immediately down here (in the empty space) 
-# save the file, and then push to the GitHub repo 
+# save the file, and t hen push to the GitHub repo 
 
+author <- c("Shakespeare", "Dante", "Cervantes", "Pynchon")
+author 
 
+nationality <- c("English", "Italian", "Spanish", "American")
+nationality
 
+my_new_list <- list (author,nationality)
+my_new_list
 ### Your Turn (1) - end
 
 ### 2. Accessing variables
