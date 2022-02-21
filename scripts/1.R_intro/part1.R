@@ -26,6 +26,7 @@ my_first_vector
 
 # vectors (of strings)
 my_second_vector <- c("to", "be", "or", "not", "to", "be")
+
 my_second_vector
 
 # lists
@@ -87,6 +88,7 @@ which(my_df$author == "Dante")
 my_df$nationality[which(my_df$author == "Dante")]
 
 ### Your Turn (2) - start
+my_df$author[which(my_df$nationality == "Spanish")]
 
 # find the author who has "Spanish" nationality
 # please write the code immediately down here (in the empty space) 
